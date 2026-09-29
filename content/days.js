@@ -36,7 +36,7 @@ window.ADVENT_DAYS = [
     }
   },
   {
-    day: 3,
+    day: 4,
     title: "Тут можно выиграть в Бинго",
     text: "Никогда не думала о том, насколько ты Соня? А насколько мы - Соня??",
     link: {
@@ -45,12 +45,12 @@ window.ADVENT_DAYS = [
     }
   },
   {
-    day: 4,
+    day: 7,
     title: "Тут за нас говорит музыка",
     text: "Музыкаааа - это дивная странааа, все векааа принимала всех онаааа",
     link: {
       label: "Услышать, что  хочет сказать музыка",
-      url: "https://spotify.com"
+      url: "https://open.spotify.com/playlist/0QW2dmySSqS6EHvrcEejXO?si=K1Mdb-rARSart7Ey4sG0Sw&utm_source=copy-link&pt=741de9b56e682d1e7c86e9b4315166c4"
     }
   },
   {
@@ -63,7 +63,7 @@ window.ADVENT_DAYS = [
     }
   },
   {
-    day: 6,
+    day: 3,
     title: "Тут можно попасть на слегка кринжовый стадион",
     text: "Кажется, у нас появилась машина времени...",
     link: {
@@ -72,7 +72,7 @@ window.ADVENT_DAYS = [
     }
   },
   {
-    day: 7,
+    day: 6,
     title: "Тут мы кого-то строим из себя",
     text: "Можно посмеяться, можно чуть-чуть покринжевать",
     link: {
@@ -100,8 +100,8 @@ window.ADVENT_DAYS = [
   },
   {
     day: 10,
-    title: "Тут будет неожиданный бонус",
-    text: "К нам в руки попал один эксклюзивный обзор...",
+    title: "Тут спрятался неожиданный бонус",
+    text: "К нам в руки попал один необычный обзор...",
     link: {
       label: "Посмотреть обзор",
       url: "https://drive.google.com/drive/folders/1oywlws-tjhIWl-Eiim3StIBeLWqWUnNU?usp=drive_link"
