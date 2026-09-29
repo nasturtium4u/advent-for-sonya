@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6750A4">
+  <meta name="description" content="Интерактивный адвент-календарь на 12 окошек.">
+  <title>Сонин адвент-календарь</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-app-bar">
+    <div class="brand">
+      <span class="material-symbols-outlined brand-icon" aria-hidden="true">calendar_month</span>
+      <div>
+        <h1>Сонин адвент-календарь</h1>
+        <p>12 небольших сюрпризов от девочек</p>
+      </div>
+    </div>
+    <div class="header-status" aria-live="polite">
+      <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+      <span id="header-time">--:--:--</span>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-icon">
+        <span class="material-symbols-outlined" aria-hidden="true">redeem</span>
+      </div>
+      <div class="hero-copy">
+        <span class="eyebrow">30 сентября 2026</span>
+        <h2>Открывай каждый час</h2>
+        <p>Каждый час появляется новое окошко. Возвращайся за следующим сюрпризом.</p>
+      </div>
+    </section>
+
+    <section class="progress-card" aria-label="Прогресс календаря">
+      <div class="progress-top">
+        <div>
+          <span class="progress-label">Открыто</span>
+          <strong id="progress-text">0 из 12</strong>
+        </div>
+        <span id="next-label">Ожидание старта</span>
+      </div>
+      <div class="progress-track">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+    </section>
+
+    <section>
+      <div id="calendar" class="calendar" aria-label="Окошки адвент-календаря"></div>
+    </section>
+
+    <section class="info-card">
+      <span class="material-symbols-outlined" aria-hidden="true">info</span>
+      <div>
+        <strong>Как это работает</strong>
+        <p>Первое окошко открывается 30 сентября в 12:00 по тайскому времени. Каждое следующее — через час. Открытые окошки можно просматривать повторно.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-scrim" data-close-modal></div>
+    <article class="modal-sheet">
+      <button id="close-modal" class="icon-button close-button" type="button" aria-label="Закрыть">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <div id="modal-media" class="modal-media"></div>
+      <div class="modal-body">
+        <span id="modal-day" class="modal-day"></span>
+        <h2 id="modal-title"></h2>
+        <div id="modal-content"></div>
+      </div>
+    </article>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="content/days.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
