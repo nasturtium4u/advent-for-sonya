@@ -194,6 +194,15 @@ button {
   gap: 18px;
 }
 
+@media (min-width: 901px) {
+  .calendar .day-card:nth-child(9) {
+  grid-column: 2;
+}
+.calendar .day-card:nth-child(10) {
+  grid-column: 3;
+}
+}
+
 .day-card {
   position: relative;
   min-height: 190px;

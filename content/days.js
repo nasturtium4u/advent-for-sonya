@@ -64,24 +64,24 @@ window.ADVENT_DAYS = [
   },
   {
     day: 6,
-    title: "Шестой день",
-    text: "Здесь можно добавить фотографию.",
-    // image: "images/day-06.jpg",
-    imageAlt: "Изображение шестого дня"
+    title: "Тут можно попасть на слегка кринжовый стадион",
+    text: "Кажется, у нас появилась машина времени...",
+    link: {
+      label: "Узнать, где мы оказались",
+      url: "https://drive.google.com/drive/folders/1_IAyQIxiaViEBZlRmbgIag5u0lZ8BTpf?usp=sharing"
+    }
   },
   {
     day: 7,
-    title: "Седьмой день",
-    text: "А здесь можно показать видео.",
-    // video: "videos/day-07.mp4"
+    title: "Тут мы кого-то строим из себя",
+    text: "Можно посмеяться, можно чуть-чуть покринжевать",
+    link: {
+      label: "Узнать, кого мы из себя построили",
+      url: "https://drive.google.com/drive/folders/1LeYceebWycLIOgkrc-vjcAc_ze99Glwr?usp=sharing"
+    }
   },
   {
     day: 8,
-    title: "Восьмой день",
-    text: "Ещё один маленький сюрприз."
-  },
-  {
-    day: 9,
     title: "Тут мы - попаданцы",
     text: "Мы куда-то попали...",
     link: {
@@ -90,12 +90,7 @@ window.ADVENT_DAYS = [
     }
   },
   {
-    day: 10,
-    title: "Десятый день",
-    text: "Почти финал — осталось совсем немного!"
-  },
-  {
-    day: 11,
+    day: 9,
     title: "Тут можно послушать нас",
     text: "Нам ещё так много хочется тебе сказать:",
     link: {
@@ -104,7 +99,7 @@ window.ADVENT_DAYS = [
     }
   },
   {
-    day: 12,
+    day: 10,
     title: "Тут будет неожиданный бонус",
     text: "К нам в руки попал один эксклюзивный обзор...",
     link: {

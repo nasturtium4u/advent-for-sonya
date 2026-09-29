@@ -3,7 +3,7 @@
 
   const START_TIME_UTC = "2026-08-30T05:00:00.000Z"; // 12:00 UTC+7
   const INTERVAL_MS = 60 * 60 * 1000;
-  const TOTAL_DAYS = 12;
+  const TOTAL_DAYS = 10;
   const STORAGE_KEY = "advent-calendar-opened-v1";
 
   const calendar = document.getElementById("calendar");
