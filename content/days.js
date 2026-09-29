@@ -82,8 +82,12 @@ window.ADVENT_DAYS = [
   },
   {
     day: 9,
-    title: "Девятый день",
-    text: "Добавьте свой контент для девятого окошка."
+    title: "Тут мы - попаданцы",
+    text: "Мы куда-то попали...",
+    link: {
+      label: "Узнать, куда",
+      url: "https://drive.google.com/drive/folders/11x0K7IUqOJbWWCbs8Zp2uz3XJ1IykH_V?usp=drive_link"
+    }
   },
   {
     day: 10,
@@ -92,8 +96,12 @@ window.ADVENT_DAYS = [
   },
   {
     day: 11,
-    title: "Одиннадцатый день",
-    text: "Предпоследний сюрприз."
+    title: "Тут можно послушать нас",
+    text: "Нам ещё так много хочется тебе сказать:",
+    link: {
+      label: "Послушать нас (и посмотреть)",
+      url: "https://drive.google.com/drive/folders/1eU8fYkrSL2oLZTunLxrSFGExtvyAuqtB?usp=sharing"
+    }
   },
   {
     day: 12,
