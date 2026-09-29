@@ -37,18 +37,30 @@ window.ADVENT_DAYS = [
   },
   {
     day: 3,
-    title: "Третий день",
-    text: "Добавьте сюда текст, картинку, видео или ссылку."
+    title: "Тут можно выиграть в Бинго",
+    text: "Никогда не думала о том, насколько ты Соня? А насколько мы - Соня??",
+    link: {
+      label: "Узнать, насколько мы Сони",
+      url: "https://drive.google.com/drive/folders/1EsasPVe8gteLfaCt5E6TSdhJFQ_B-yeK?usp=sharing"
+    }
   },
   {
     day: 4,
-    title: "Четвёртый день",
-    text: "Каждое окошко может содержать свой уникальный контент."
+    title: "Тут за нас говорит музыка",
+    text: "Музыкаааа - это дивная странааа, все векааа принимала всех онаааа",
+    link: {
+      label: "Услышать, что  хочет сказать музыка",
+      url: "https://spotify.com"
+    }
   },
   {
     day: 5,
-    title: "Пятый день",
-    text: "Например, здесь можно разместить небольшую историю или пожелание."
+    title: "Тут можно узнать, что о тебе думают",
+    text: "Мы поностальгировали по детству и выдали это:",
+    link: {
+      label: "Посмотреть на анкету для девочек",
+      url: "https://drive.google.com/drive/folders/1xyeJV8o9JQOQ6El7uUpr-wsHIfva8eXf?usp=sharing"
+    }
   },
   {
     day: 6,
@@ -85,14 +97,11 @@ window.ADVENT_DAYS = [
   },
   {
     day: 12,
-    title: "Бонус!",
-    text: [
-      "К нам в руки попал один эксклюзивный обзор...",
-      "Кликни ниже, чтобы посмотреть:"
-    ],
+    title: "Тут будет неожиданный бонус",
+    text: "К нам в руки попал один эксклюзивный обзор...",
     link: {
-      label: "Посмотреть видео",
-      url: "https://drive.google.com/file/d/1LcDGjHRmYRtaVw6iUTWzQelU2Qev1n9q/view?usp=sharing"
+      label: "Посмотреть обзор",
+      url: "https://drive.google.com/drive/folders/1oywlws-tjhIWl-Eiim3StIBeLWqWUnNU?usp=drive_link"
     }
   }
 ];
