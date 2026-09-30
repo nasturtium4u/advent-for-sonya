@@ -47,7 +47,7 @@ window.ADVENT_DAYS = [
   {
     day: 7,
     title: "Тут за нас говорит музыка",
-    text: "Музыкаааа - это дивная странааа, все векааа принимала всех онаааа",
+    text: ["Музыкаааа - это дивная странааа, все векааа принимала всех онаааа","(Не забудь включить заметки)"],
     link: {
       label: "Услышать, что  хочет сказать музыка",
       url: "https://open.spotify.com/playlist/0QW2dmySSqS6EHvrcEejXO?si=K1Mdb-rARSart7Ey4sG0Sw&utm_source=copy-link&pt=741de9b56e682d1e7c86e9b4315166c4"
